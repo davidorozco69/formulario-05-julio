@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+background: url(https://www.wallpapertip.com/wmimgs/41-411751_wallpaper-road-asphalt-marking-mountains-trees-road-wallpaper.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+color: aliceblue;
+font-family: Helvetica;
+height: 100vh;
+}
+nav{
+    background-color: rgba(119, 136, 153, 0.212);
+    width: 100%;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;   
+}
+.lista a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+
+.lista-r{
+    float:right
+}
+
+.lista a:hover{
+    background-color: tomato;
+}
+main{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    border: 10px solid white;
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgba(136, 136, 231, 0.6);
+}
+label{
+    font-size: 22px;
+    font-weight: 600;
+}
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: rgb(199, 149, 245, 0.4);
+    color: white;
+}
+button[type="submit"]{
+    background: red;
+    color: white;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+    background-color: rgb(44, 44, 253, 0.9);
+}
+.container2{
+    background: rgb(75, 37, 75, 0.4);
+    width: 850px;
+    height: 600px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+.campos{
+    margin: 5px;
+    align-items: center;
+}
+.container3{
+    align-items: center;
+    justify-content: center;
+}
+.container4{
+    align-items: center;
+    justify-content: center;
+}
